@@ -8,11 +8,11 @@
   align-items: center;
   font-family: 'Inter', sans-serif;
   color: white;
-  padding: 34px 0px 24px;
+  padding: 20px 0px 24px;
 }
 
-@media (max-width: 330px){
+@media (min-width: 768px){
   .page{
-    padding: 20px 0px 24px;
+    padding: 34px 0px 24px;
   }
 }
