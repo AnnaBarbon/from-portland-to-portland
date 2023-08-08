@@ -1,25 +1,27 @@
 .photo-grid{
-  width: calc(100% - 32px);
+  width: calc(100% - 16px);
   min-width: 288px;
+  padding: 64px 0px;
 }
 
 @media (min-width: 768px){
   .photo-grid{
-    width: calc(100% - 48px);
-    margin-top: 88px;
+    width: calc(100% - 24px);
+    padding: 88px 0px;
   }
 }
 
 @media (min-width: 1024px){
   .photo-grid{
-    width: calc(100% - 96px);
-    margin-top: 92px;
+    width: calc(100% - 48px);
+    padding: 92px 0px;
   }
 }
 
 @media (min-width: 1280px){
   .photo-grid{
-    width: calc(100% - 48px);
+    width: calc(100% - 24px);
     gap: 14px;
+    max-width: 1184px;
   }
 }

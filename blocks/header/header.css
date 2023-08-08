@@ -1,5 +1,5 @@
 .header{
-  width: calc(100% - 32px);
+  width: calc(100% - 16px);
   min-width: 288px;
   display: flex;
   align-items: center;
@@ -8,18 +8,19 @@
 
 @media (min-width: 768px){
   .header{
-    width: calc(100% - 48px);
+    width: calc(100% - 24px);
   }
 }
 
 @media (min-width: 1024px){
   .header{
-    width: calc(100% - 96px);
+    width: calc(100% - 48px);
   }
 }
 
 @media (min-width: 1280px){
   .header{
-    width: calc(100% - 296px);
+    width: calc(100% - 96px);
+    max-width: 984px;
   }
 }

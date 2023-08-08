@@ -1,0 +1,10 @@
+.place__text{
+  width: calc(100% - 16px);
+  min-width: 288px;
+}
+
+@media (min-width: 768px){
+  .place__text{
+    width: 100%;
+  }
+}
