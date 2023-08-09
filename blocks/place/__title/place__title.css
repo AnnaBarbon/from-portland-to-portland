@@ -4,10 +4,9 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  width: 100%;
+  width: calc(100% - 16px);
   min-width: 288px;
   text-align: left;
-  padding-left: 16px;
 }
 
 @media (min-width: 768px){
@@ -15,7 +14,6 @@
     width: 100%;
     font-size: 42px;
     line-height: 46px;
-    padding: 0;
   }
 }
 
