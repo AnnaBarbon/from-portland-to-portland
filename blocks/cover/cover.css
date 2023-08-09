@@ -12,6 +12,7 @@
   background-position: center;
   min-height: 200px;
   max-height: 380px;
+  margin: 64px 0px;
 }
 
 @media (min-width: 434px){
@@ -25,6 +26,7 @@
   .cover{
     min-height: 480px;
     max-height: 640px;
+    margin: 89px 0px 88px;
   }
 }
 
@@ -33,6 +35,7 @@
     min-height: 640px;
     max-height: 740px;
     max-width: 1184px;
+    margin: 92px 0px;
   }
 }
 

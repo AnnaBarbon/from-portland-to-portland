@@ -4,13 +4,13 @@
 
 @media (min-width: 1024px){
   .lead__image{
-    width: calc(100% - 48px);
+    width: calc(100% - 96px);
   }
 }
 
 @media (min-width: 1280px){
   .lead__image{
-    width: calc(100% - 96px);
+    width: calc(100% - 296px);
     max-width: 984px;
   }
 }
